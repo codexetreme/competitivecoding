@@ -1,3 +1,4 @@
+// https://www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -24,14 +25,23 @@ ostream &operator<<(ostream &os, const vector<T> &v)
 
 typedef vector<int> veci;
 
-void process (){
+void process(veci t){
 
+    int maxE = *max_element(t.begin(), t.end());
+    int minE = *min_element(t.begin(), t.end());
+    
+    
+    
+    for (int i =0; i<t.size(); i++){
+        
+    }
 }
+
 
 int main()
 {
 
-    int n;
-    process();
+    veci t({1, 5, 15, 10});
+    process(t);
     return 0;
 }
