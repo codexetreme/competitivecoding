@@ -1,6 +1,19 @@
 import java.io.*;
 import java.util.*;
 
+/**
+ * 5
+ * 3
+ * 5 1 6
+ * 3
+ * 1 3 7
+ * 16
+ * 0 8 4 12 2 10 6 14 1 9 5 13 3 11 7 15
+ * 5
+ * 10 2 30 4 1
+ * 6
+ * 5 8 3 7 9 1
+ */
 public class LIS {
 
     private static void process(int size, int[] a) {
